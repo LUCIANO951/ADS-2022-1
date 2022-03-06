@@ -1,0 +1,26 @@
+Algoritmo "ADS-2022-1(2)"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : EDILENE APARECIDA
+// Descrição   : PRIMEIRA ATIVIDADE DE LÓGICA
+// Autor(a)    : Nome do(a) aluno(a) LUCIANO QUEIROZ DOS SANTOS
+// Data atual  : 06/03/2022
+Var
+valorreais, valordolars, valoralemao, valorlibras : REAL
+
+Inicio
+Escreva("Digite o valor a ser convertido: R$")
+Leia(valorreais)
+valordolars <- ((valorreais) /18 * 10))
+Escreval ("Valor convertido $", valordolars)
+
+Escreva("Digite o valor a ser convertido: R$")
+Leia(valorreais)
+valoralemao <- ((valorreais) /20 * 10)
+Escreval ("Valor convertido €", valoralemao)
+
+Escreva("Digite o valor a ser convertido: R$")
+Leia(valorreais)
+valorlibras <- ((valorreais) /357 * 100)
+Escreval ("Valor convertido €", valorlibras)
+
+Fimalgoritmo
